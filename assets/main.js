@@ -16,6 +16,7 @@ function removeBorder() {
     tabItems.forEach(item => item.classList.remove('tab-border'));
 }
 
+// Hide the content of the previous card.
 function removeShow() {
     tabContentItems.forEach(item => item.classList.remove('show'));
 }
