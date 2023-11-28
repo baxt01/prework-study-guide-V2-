@@ -1,14 +1,15 @@
-const tabItems = document.quertSelectorAll('.card');
-const tabContentItems = document.quertSelectorAll('.tab-content-item');
+const tabItems = document.querySelectorAll('.tab-item');
+const tabContentItems = document.querySelectorAll('.tab-content-item');
 
 //Select tab content item.
 function selectItem(e) {
-    removeBoder();
+    removeBorder();
     removeShow();
-    // 1add border to current tab
+    // Add border to current tab
     this.classList.add('tab-border')
     // Grab content item from the DOM
     const tabContentItem = document.querySelector(`#${this.id}-content`);
+    // show content
     tabContentItem.classList.add('show');
 }
 
