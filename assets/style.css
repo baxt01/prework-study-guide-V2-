@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #e50914;
+    --primary-color: #00eeff;
     --dark-color: #141414;
 }
 
@@ -24,7 +24,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: #fff;
+    color: #b8b8b8;
 }
 
 a {
@@ -100,7 +100,7 @@ img {
 
 .showcase-content p {
     text-transform: uppercase;
-    color: #fff;
+    color: #b8b8b8;
     font-weight: 400;
     font-size: 1.9rem;
     line-height: 1.25;
@@ -146,7 +146,7 @@ img {
 .tab-content {
     padding: 3rem 0;
     background: #000;
-    color: #fff;
+    color: #b4b1b1;
 }
 
 /* Hide Content initially */
@@ -240,6 +240,7 @@ img {
     font-size: 2rem;
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 
 .btn-lg {
