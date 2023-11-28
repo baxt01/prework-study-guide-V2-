@@ -1,77 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>Prework Study Guide</title>
-  </head>
-
-  <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img
-        src="./assets/bowtie-cat.png"
-        alt="Profile image of cat wearing a bow tie."
-      />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/style.css">
+   <script src="https://kit.fontawesome.com/0c7432e38a.js" crossorigin="anonymous"></script>
+    <title>prework study guide V2</title>
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie.">
+            <a href="#" class="btn btn-rounded">sign in</a>
+        </div>
+            <div class="showcase-content">
+                <h1>See what's next</h1>
+                <p>Watch anytime cancel anytime</p>
+                <a href="#" class="btn btn-xl">
+                    watch free for 30 days
+                </a>
+        </div>
     </header>
+    <section class="tabs">
+        <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+                <i class="fas fa-door-open fa-3x"></i>
+                <p class="hide-sm">cancel anytime</p>
+            </div>
+                <div id="tab-2" class="tab-item">
+                    <i class="fas fa-tablet-alt fa-3x"></i>
+                    <p class="hide-sm">watch anywhere</p>
+                </div>
+                    <div id="tab-3" class="tab-item">
+                        <i class="fas fa-tags fa-3x"></i>
+                        <p class="hide-sm">pick your price</p>
+                    </div>
+                <div id="tab-4" class="tab-item">
+                    <i class="fas fa-bell fa-3x"></i>
+                    <p class="hide-sm">pick your price</p>
+                </div>
+        </div>
+    </section>
 
-    <main>
-      <!-- Added Study Guide content -->
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>
-            The body element represents the visible content shown to the user.
-          </li>
-        </ul>
-      </section>
-
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>
-            A margin indicates how much space we want around the outside of an
-            element.
-          </li>
-          <li>
-            A padding indicates how much space we want around the content inside
-            an element.
-          </li>
-        </ul>
-      </section>
-
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>
-            git checkout -b branch-name: creates a new branch and switches to it
-          </li>
-        </ul>
-      </section>
-
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        <ul>
-          <li>
-            A variable is a named container that allows us to store data in our
-            code.
-          </li>
-          <li>
-            Control flow is the order in which a computer executes code in a
-            script.
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <p>I can code!</p>
-    </footer>
-    <script src="./assets/script.js"></script>
-  </body>
+    <section class="tab-content">
+        <div class="container">
+            <!-- Tab Content 1 -->
+            <div id="tab-1-content" class="tab-content-item show">
+                <div class="tab-1-content-inner">
+                    <Div>
+                        <p class="text-lg">
+                         UL to go in here.   
+                        </p>
+                        <a href="#" class="btn btn-lg">watch free for 30 days.</a>
+                    </Div>
+                    <img src="assets/tab-content-1.png" alt="HTML image.">
+                </div>
+            </div>
+            <!-- Tab content 2-->
+            <div id="tab-2-content" class="tab-content-item">
+                <div class="tab-2-content-inner">
+                    <Div>
+                        <p class="text-lg">
+                         UL to go in here.   
+                        </p>
+                        <a href="#" class="btn btn-lg">watch free for 30 days.</a>
+                    </Div>
+                    <img src="assets/tab-content-2.jpeg" alt="CSS image.">
+                </div>
+            </div>
+            <!-- Tab content 3 -->
+            <div id="tab-3-content" class="tab-content-item">
+                <div class="tab-3-content-inner">
+                    <Div>
+                        <p class="text-lg">
+                         UL to go in here.   
+                        </p>
+                        <a href="#" class="btn btn-lg">watch free for 30 days.</a>
+                    </Div>
+                    <img src="assets/tab-content-3.png" alt="javascript image.">
+                </div>
+            </div>
+            <!-- Tab content 4 -->
+            <div id="tab-4-content" class="tab-content-item">
+                <div class="tab-4-content-inner">
+                    <Div>
+                        <p class="text-lg">
+                         UL to go in here.   
+                        </p>
+                        <a href="#" class="btn btn-lg">watch free for 30 days.</a>
+                    </Div>
+                    <img src="assets/tab- content-4.png" alt="GitHub image.">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/main.js"></script>
+</body>
 </html>
